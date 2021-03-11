@@ -12,7 +12,7 @@ on:
 
 jobs:
   check-commit-message:
-    name: Check Commit Message
+    name: JIRA ticket in commit message?
     runs-on: ubuntu-latest
     steps:
       - name: Check Jira Ticket
