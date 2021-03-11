@@ -1,5 +1,6 @@
 name: 'Commit Message Check'
 on:
+  push:
   pull_request:
     types:
       - opened
@@ -11,10 +12,7 @@ on:
       - opened
       - edited
       - reopened
-      - synchronize
-  push:
-    branches:
-      - *
+
       
  jobs:
   check-commit-message:
