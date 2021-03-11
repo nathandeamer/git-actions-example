@@ -18,5 +18,5 @@ jobs:
       - name: Check Jira Ticket
         uses: gsactions/commit-message-checker@v1
         with:
-          pattern: '\[[^]]+\] .+$'
+          pattern: '^[a-zA-Z]+-[0-9]+'
           error: 'No JIRA ticket in commit message'
